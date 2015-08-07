@@ -52,7 +52,7 @@ def geodesicDist(lat1, long1, lat2, long2):
 ## TailNum, OwnerType, Manufacturer, IssueDate, Model, Status, AircraftType, EngineType, Year
 
 ## set of airports to loop over in pairs
-airports = ["SEA","PDX","FAR","BOI","SFO","LAX","ELP","DFW","IAH","PHX","LAS","DEN","MSP","MKE","ORD","STL","DTW","PIT","IAD","JFK","BOS","ATL","CLT","MIA"]
+airports = ["SEA","PDX","FAR","BOI","BIL","SFO","LAX","ELP","DFW","IAH","PHX","LAS","DEN","MSP","MKE","ORD","STL","DTW","PIT","IAD","JFK","BOS","ATL","CLT","MIA"]
 sqlsetairports = "(\""+'\", \"'.join(airports)+"\")"
 
 ## pull flights from the database
